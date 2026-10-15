@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Politique de confidentialité d'Astrolabe — école du sextant : aucune donnée collectée.">
+  <title>Politique de confidentialité d'Astrolabe — école du sextant</title>
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: #0a1120;
+      color: #ebe6da;
+      font: 1rem/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    main, header, footer { max-width: 42rem; margin: 0 auto; padding: 0 16px; }
+    header { padding-top: 24px; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px 20px; padding-bottom: 12px; border-bottom: 1px solid #24324b; font-size: 0.95rem; }
+    h1, h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; line-height: 1.25; }
+    h1 { font-size: 2rem; margin: 32px 0 8px; }
+    h2 { font-size: 1.35rem; margin: 32px 0 8px; color: #c8a15c; }
+    p, li { overflow-wrap: anywhere; }
+    ul { padding-left: 1.25rem; }
+    a { color: #c8a15c; text-underline-offset: 3px; }
+    a:focus-visible { outline: 2px solid #c8a15c; outline-offset: 2px; }
+    a[aria-current="page"] { color: #ebe6da; text-decoration: none; }
+    .muted { color: #8796ad; }
+    .card { background: #111b2e; border: 1px solid #24324b; border-radius: 3px; padding: 4px 16px; margin: 24px 0; }
+    footer { margin-top: 40px; padding-bottom: 32px; border-top: 1px solid #24324b; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Pages">
+      <a href="index.html">Astrolabe</a>
+      <a href="confidentialite.html" hreflang="fr" lang="fr" aria-current="page">Confidentialité</a>
+      <a href="privacy.html" hreflang="en" lang="en">Privacy</a>
+    </nav>
+  </header>
+  <main>
+      <h1>Politique de confidentialité d'Astrolabe — école du sextant</h1>
+      <p class="muted">Dernière mise à jour : 15 octobre 2026.</p>
+      <p>Astrolabe est une application gratuite pour apprendre la navigation au sextant, publiée sur l'App Store et Google Play par Maxime Joly, qui en est le développeur et le responsable (contact : <a href="mailto:mjoly.pm@gmail.com">mjoly.pm@gmail.com</a>). Cette politique explique ce que l'application fait de vos données : elle n'en collecte aucune.</p>
+      <h2>En bref</h2>
+      <ul>
+        <li>Aucune donnée personnelle n'est collectée ni transmise, ni au développeur ni à un tiers.</li>
+        <li>Pas de compte, pas de publicité, pas d'outil d'analyse ou de mesure d'audience. L'application n'envoie aucun rapport de plantage.</li>
+        <li>L'application ne fait aucune requête réseau. Elle fonctionne entièrement hors ligne.</li>
+        <li>Tout ce que vous enregistrez reste sur votre appareil.</li>
+      </ul>
+      <h2>Ce qui est conservé sur votre appareil</h2>
+      <ul>
+        <li><strong>Le carnet de relevés</strong> : les séances que vous choisissez d'enregistrer (date, position estimée, hauteurs mesurées, latitude obtenue, remarques).</li>
+        <li><strong>Les réglages et la progression</strong> : langue, éclairage (nuit ou nuit rouge), ouvrage choisi, leçons suivies.</li>
+      </ul>
+      <p>Ces données sont stockées dans une base SQLite locale, dans l'espace privé de l'application. Elles ne quittent l'appareil que si vous les exportez vous-même (voir plus bas). Vous pouvez supprimer une séance depuis le carnet ; la désinstallation de l'application efface l'ensemble. Selon les réglages de votre téléphone, la sauvegarde du système (iCloud, sauvegarde Google) peut inclure ces données, comme celles de toute application : c'est alors votre compte Apple ou Google qui les conserve, pas le développeur.</p>
+      <h2>Localisation</h2>
+      <p>La position n'est lue que lorsque vous la demandez, sur l'écran de terrain, par l'un de ces deux boutons :</p>
+      <ul>
+        <li>« Utiliser la position GPS », pour préremplir votre position estimée ;</li>
+        <li>« Comparer avec le GPS », pour comparer après coup la latitude trouvée au sextant avec celle du GPS.</li>
+      </ul>
+      <p>L'autorisation demandée est « pendant l'utilisation de l'app » ; l'application n'accède jamais à la position en arrière-plan. La position lue n'est conservée que dans le carnet local, et seulement si vous enregistrez la séance. Elle n'est jamais transmise. Vous pouvez refuser l'autorisation : la position estimée se saisit alors à la main et le calcul de la latitude n'en dépend pas.</p>
+      <p>La position est calculée par le service de localisation du téléphone (iOS, ou les services Google Play sur Android). Selon les réglages du système, par exemple « Précision de la localisation Google », ce service peut utiliser le Wi-Fi, le réseau mobile et les capteurs, et échanger des données avec Apple ou Google, sous leur responsabilité et selon leurs règles de confidentialité. L'application, elle, ne reçoit que la position et ne la transmet à personne.</p>
+      <h2>Notifications</h2>
+      <p>L'application peut programmer, à votre demande, un rappel avant le passage du Soleil au méridien. Ce sont des notifications locales, programmées et affichées par le téléphone lui-même : aucun serveur de notification n'est utilisé. L'autorisation n'est demandée qu'au moment où vous programmez un rappel.</p>
+      <p>Sur Android, le module de notifications contient la bibliothèque Firebase Cloud Messaging de Google, prévue pour les notifications à distance. Astrolabe ne la configure pas et ne l'utilise pas : aucun identifiant n'est créé et rien n'est envoyé.</p>
+      <h2>Export du carnet</h2>
+      <p>Vous pouvez exporter votre carnet en CSV ou en JSON. Le fichier est préparé sur l'appareil puis remis à la feuille de partage du système ; c'est vous qui choisissez l'application ou la personne qui le reçoit. Rien n'est envoyé sans votre action.</p>
+      <h2>Liens</h2>
+      <p>L'écran « À propos et sources » contient des liens (cette politique, les sources citées, l'adresse de contact). Ils s'ouvrent dans votre navigateur ou votre messagerie, seulement si vous les touchez ; c'est alors la politique de ce navigateur ou de ce site qui s'applique.</p>
+      <h2>Rapports de diagnostic du système</h2>
+      <p>L'application n'envoie elle-même aucun rapport de plantage ni de diagnostic. Si vous l'avez accepté dans les réglages de votre téléphone, Apple ou Google peuvent recevoir des rapports de diagnostic anonymes du système et en transmettre une partie aux développeurs des applications concernées ; ce partage relève de leurs politiques de confidentialité et se désactive dans les réglages du téléphone.</p>
+      <h2>Courriels</h2>
+      <p>Si vous écrivez à l'adresse de contact, votre message et votre adresse e-mail ne servent qu'à vous répondre. Le responsable du traitement au sens du RGPD est Maxime Joly, qui les traite sur le fondement de son intérêt légitime à répondre à votre demande. La messagerie est hébergée par Google (Gmail). Ils ne sont communiqués à personne d'autre ; ils sont conservés le temps de l'échange, puis supprimés.</p>
+      <h2>Enfants</h2>
+      <p>L'application ne collecte de données auprès de personne, enfants compris.</p>
+      <h2>Vos droits</h2>
+      <p>L'application ne transmet aucune donnée au développeur : les données de l'application sont sous votre seul contrôle, sur votre appareil. Pour un courriel que vous avez envoyé, vous disposez des droits d'accès, de rectification, d'effacement, de limitation du traitement et d'opposition : il suffit d'écrire à l'adresse de contact. Vous avez aussi le droit d'introduire une réclamation auprès de la Commission nationale de l'informatique et des libertés (CNIL), www.cnil.fr.</p>
+      <h2>Modifications</h2>
+      <p>Si cette politique change, la nouvelle version sera publiée à la même adresse, avec sa date de mise à jour.</p>
+      <h2>Contact</h2>
+      <p>Pour toute question : <a href="mailto:mjoly.pm@gmail.com">mjoly.pm@gmail.com</a>.</p>
+  </main>
+  <footer>
+    <p class="muted">Astrolabe — école du sextant. © 2026 Maxime Joly. Contact : <a href="mailto:mjoly.pm@gmail.com">mjoly.pm@gmail.com</a>. <a href="privacy.html" hreflang="en" lang="en">English version</a>.</p>
+  </footer>
+</body>
+</html>
