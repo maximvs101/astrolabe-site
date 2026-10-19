@@ -54,20 +54,20 @@
       </ul>
       <h2>What is kept on your device</h2>
       <ul>
-        <li><strong>The sight log</strong>: the sessions you choose to save (date, dead-reckoning position, measured altitudes, latitude and longitude found, course and speed made good entered for a noon fix, notes).</li>
+        <li><strong>The sight log</strong>: the sessions you choose to save (date, dead-reckoning position, measured altitudes, latitude and longitude found, course and speed made good entered for a noon fix or a three-star fix, stars sighted, notes).</li>
         <li><strong>Settings and progress</strong>: language, lighting (night or red night), chosen almanac, lessons completed.</li>
       </ul>
       <p>This data is stored in a local SQLite database, in the app's private storage. It leaves the device only if you export it yourself (see below). You can delete a session from the log; uninstalling the app erases everything. Depending on your phone's settings, the system backup (iCloud, Google backup) may include this data, as it does for any app: it is then kept by your Apple or Google account, not by the developer.</p>
       <h2>Location</h2>
-      <p>Your position is read only when you ask for it, on the field screens (noon sight, Polaris and noon fix), through one of two buttons:</p>
+      <p>Your position is read only when you ask for it, on the field screens (noon sight, Polaris, noon fix and three-star fix), through one of two buttons:</p>
       <ul>
         <li>"Use GPS position", to prefill your dead-reckoning position;</li>
-        <li>"Compare with GPS", to compare your sextant latitude with the GPS latitude afterwards or, for the noon fix, the latitude and longitude of your fix with the GPS ones (distance and direction of the gap).</li>
+        <li>"Compare with GPS", to compare your sextant latitude with the GPS latitude afterwards or, for a noon fix or a three-star fix, the latitude and longitude of your fix with the GPS ones (distance and direction of the gap).</li>
       </ul>
-      <p>The permission requested is "while using the app"; the app never accesses your location in the background. The position read is kept only in the local log, and only if you save the session (for the noon fix, latitude and longitude included). It is never transmitted. You can refuse the permission: you then enter your dead-reckoning position by hand, and the latitude calculation does not depend on it.</p>
+      <p>The permission requested is "while using the app"; the app never accesses your location in the background. The position read is kept only in the local log, and only if you save the session (for a noon fix or a three-star fix, latitude and longitude included). It is never transmitted. You can refuse the permission: you then enter your dead-reckoning position by hand, and the latitude calculation does not depend on it.</p>
       <p>The position is computed by your phone's location service (iOS, or Google Play services on Android). Depending on your system settings, such as Google Location Accuracy, that service may use Wi-Fi, mobile networks and sensors, and exchange data with Apple or Google, under their responsibility and privacy policies. The app itself receives only the position and passes it on to no one.</p>
       <h2>Notifications</h2>
-      <p>At your request, the app can schedule a reminder before the Sun crosses the meridian, or when the Polaris sight window opens at twilight. These are local notifications, scheduled and shown by the phone itself: no notification server is used. Permission is asked only when you schedule a reminder.</p>
+      <p>At your request, the app can schedule a reminder before the Sun crosses the meridian, or when the Polaris or star sight window opens at twilight. These are local notifications, scheduled and shown by the phone itself: no notification server is used. Permission is asked only when you schedule a reminder.</p>
       <p>On Android, the notification module includes Google's Firebase Cloud Messaging library, intended for remote notifications. Astrolabe does not configure or use it: no identifier is created and nothing is sent.</p>
       <h2>Exporting the log</h2>
       <p>You can export your log as CSV or JSON. The file is prepared on the device and handed to the system share sheet; you choose the app or person that receives it. Nothing is sent without your action.</p>
